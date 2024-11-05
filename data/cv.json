@@ -1,0 +1,62 @@
+{
+"about":[
+    {
+    "text": "Et sint enim ea quis laboris est. Labore officia sit est culpa tempor consequat consequat sint ullamco dolor consequat eu occaecat do. Aliqua occaecat labore ea irure voluptate incididunt nulla enim. Laborum exercitation tempor dolore pariatur tempor enim. Cupidatat veniam do laborum dolore laborum laboris labore excepteur pariatur non veniam aute reprehenderit irure. Enim eu aliquip magna minim deserunt proident qui consequat sunt. Aliquip labore ullamco occaecat pariatur Aliqua sunt sint sunt esse irure culpa Lorem nostrud fugiat aute. Sit consequat aliquip aliquip sit qui dolor voluptate commodo anim non Lorem anim. Commodo adipisicing proident irure sit eu quis deserunt occaecat cillum irure nisi. Officia eu incididunt veniam tempor do mollit consequat ex reprehenderit. Occaecat quis aliquip cupidatat deserunt commodo et aute amet reprehenderit magna ex culpa laborum. Proident dolor aliqua sint reprehenderit deserunt veniam. Do anim sunt adipisicing et aute tempor quis. Amet in qui voluptate aliqua adipisicing ut ullamco tempor minim incididunt veniam."
+    }
+],
+
+    "education":[
+        {
+            "course": "Frontend Developer program",
+            "school": "Hyper Island",
+            "location": "Stockholm",
+            "duration": "2 years",
+            "period": "2020/08 - 2022-06"
+            },
+            {
+            "course": "Fullstack Javascript Developer program",
+            "school": "Chas Academy",
+            "location": "Stockholm",
+            "duration": "2 years",
+            "period": "2024/08 - ongoing"
+            }
+    ],
+   
+    "work":[
+        {
+         "place": "Freelance",
+         "role": "Frontend developer",
+         "period": "2023/03 - 2023/04"
+        },
+        {
+         "place": "Mtr Nordic",
+         "role": "Train Driver",
+         "period": "2016/06 - 2023/11"
+        }
+    ],
+    "projects": [
+        {
+            "name": "",
+            "link":"",
+            "description":"",
+            "techstack":["html","css","js"],
+            "image":""
+        },
+        {
+            "name": "",
+            "link":"",
+            "description":"",
+            "techstack":["html","css","js"],
+            "image":""
+        },
+        {
+            "name": "",
+            "link":"",
+            "description":"",
+            "techstack":["html","css","js"],
+            "image":""
+        }
+    ]
+    
+}
+
