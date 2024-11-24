@@ -3,11 +3,24 @@
 @import "./techstack.css";
 @import "./globalFonts.css";
 
+@font-face {
+    font-family: "poppins";
+    src: url(/fonts/Poppins-Regular.woff2) format("woff2");
+    src: url(/fonts/Poppins-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 :root{
     --text:white;
+    --subText:rgb(208, 195, 113);
     --footer:rgb(216, 216, 216);
-    --background:#202020;
+    --background:#141414;
+    --aboutSpan:#271072;
 }
+
 
 body{
     margin: 0;
@@ -23,24 +36,22 @@ main{
 }
 
 .hero{
-    height: 85vh;
-   background-image: url("/assets/img10.jpeg");
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 85vh;
+   background-color: rgb(20, 20, 20);
    border-radius: 20px;
    margin-bottom: 15px;
-    
 }
 
 .mainTitles{
     height: auto;
     text-align: center;
-    position: relative;
-    top: 15rem;
     .heroHeading{
         color: var(--text);
-        font-size: 3rem;
+        font-size: 8vw;
+        line-height: 1.1;
     }
     .heroText{
         color: var(--text);
@@ -87,20 +98,20 @@ main{
 }
 
 .project{
-    background-image: url("/assets/img1.jpeg");
+    background-image: url("/assets/img3.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .about{
-    background-image: url("/assets/img12.jpeg");
+    background-image: url("/assets/img8.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .contact{
-    background-image: url("/assets/img11.jpeg");
+    background-image: url("/assets/img7.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,16 +123,16 @@ footer{
     text-align: center;
     margin-bottom: 10px;
 }
-
+/* -------------------------------------             ----------------  */
 /* ----------------------------------media queries------------------  */
 @media (min-width:589px){
     .mainTitles{
-
         .heroHeading{
-            font-size: 20rem;
+            line-height: 1.2;
         }
         .heroText{
-            font-size: 1.7rem;
+            font-size: 2.5vw;
+            
         }
     }
 
@@ -142,9 +153,19 @@ footer{
         flex-direction: row;
         height: calc(100vh - 14.5px);
     }
-    /* .heroHeading{
-        font-size: 20rem;
-    } */
+
+    .mainTitles{
+        padding-bottom: 30px;
+        .heroHeading{
+            font-size: 8vw;
+            line-height: 1;
+        }
+        .heroText{
+            font-size: 1.7rem;
+            margin: 0;
+        }
+    }
+   
     .navbar{
         flex-direction: column;
         flex-wrap: nowrap;
@@ -152,14 +173,15 @@ footer{
     }
 
     .hero{
+        align-items: flex-end;
         box-sizing: border-box;
         width: 80%;
-        height: calc(100vh - 14.5px);
+        height: calc(100vh - 31px);
         border-radius: 20px;
         background-color: black;
     }
     .links{
-       width: 350px;
-       height: 300px;
+       width: 20vw;
+       height: 30.7vh;
         }
 }

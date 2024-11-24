@@ -4,59 +4,39 @@
     "text": "Et sint enim ea quis laboris est. Labore officia sit est culpa tempor consequat consequat sint ullamco dolor consequat eu occaecat do. Aliqua occaecat labore ea irure voluptate incididunt nulla enim. Laborum exercitation tempor dolore pariatur tempor enim. Cupidatat veniam do laborum dolore laborum laboris labore excepteur pariatur non veniam aute reprehenderit irure. Enim eu aliquip magna minim deserunt proident qui consequat sunt. Aliquip labore ullamco occaecat pariatur Aliqua sunt sint sunt esse irure culpa Lorem nostrud fugiat aute. Sit consequat aliquip aliquip sit qui dolor voluptate commodo anim non Lorem anim. Commodo adipisicing proident irure sit eu quis deserunt occaecat cillum irure nisi. Officia eu incididunt veniam tempor do mollit consequat ex reprehenderit. Occaecat quis aliquip cupidatat deserunt commodo et aute amet reprehenderit magna ex culpa laborum. Proident dolor aliqua sint reprehenderit deserunt veniam. Do anim sunt adipisicing et aute tempor quis. Amet in qui voluptate aliqua adipisicing ut ullamco tempor minim incididunt veniam."
     }
 ],
-
     "education":[
         {
             "course": "Frontend Developer program",
-            "school": "Hyper Island",
+            "place": "Hyper Island",
             "location": "Stockholm",
             "duration": "2 years",
+            "description":"2 years long developer program where i got to work solo and with temas, to learn the basics and intermediate level of frontend development, 6 months of internship and succesfully finnished the course",
             "period": "2020/08 - 2022-06"
             },
             {
             "course": "Fullstack Javascript Developer program",
-            "school": "Chas Academy",
+            "place": "Chas Academy",
             "location": "Stockholm",
             "duration": "2 years",
+            "description":"2 year long program to become a fullstack javascript developer, where i will learn frontend and backend technologies using javascript",
             "period": "2024/08 - ongoing"
             }
     ],
-   
     "work":[
         {
+         "location":"Stockholm",
          "place": "Freelance",
          "role": "Frontend developer",
+         "description":"Freelance work were client needed a website for his new company, with the requirments that he coukld update the website with content by him self ",
          "period": "2023/03 - 2023/04"
         },
         {
+         "location":"Stockholm",
          "place": "Mtr Nordic",
          "role": "Train Driver",
+         "description":"as a traindriver in stockholm city my main ",
          "period": "2016/06 - 2023/11"
         }
-    ],
-    "projects": [
-        {
-            "name": "",
-            "link":"",
-            "description":"",
-            "techstack":["html","css","js"],
-            "image":""
-        },
-        {
-            "name": "",
-            "link":"",
-            "description":"",
-            "techstack":["html","css","js"],
-            "image":""
-        },
-        {
-            "name": "",
-            "link":"",
-            "description":"",
-            "techstack":["html","css","js"],
-            "image":""
-        }
     ]
-    
 }
 
