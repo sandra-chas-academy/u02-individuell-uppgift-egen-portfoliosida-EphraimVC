@@ -114,6 +114,10 @@
     .cvContainer{
         max-width: 700px;
     }
+
+    .cvTitles{
+        font-size: 2rem;
+    }
     .experience{
         display: flex;
         flex-direction: row;
@@ -196,14 +200,21 @@
         margin: 0 auto;
         max-width: 900px;
     }
+    .cvTitles{
+        font-size: 2.5rem;
+    }
     .expDescription{
         max-width: 900px;
     }
 
     .expInfo{
-        max-width: 900px;
+        max-width: 1000px;
     }
     .expLocation{
         width: 170px;
+    }
+    .descriptionText{
+        font-size: 1rem;
+        margin-top: 3px;
     }
 }
