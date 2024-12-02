@@ -77,6 +77,7 @@ Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt m
 * Återkoppling ges i Canvas
 
 
+länk till netlify: https://u02uppgift.netlify.app
 
 
 
