@@ -35,12 +35,24 @@ När hämtningen av projekten sker ska det finnas information om att projekten h
 ### Sammantfattning av projekt + teoretiska frågor
 
 1. Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
+ - grund ideen för detta projekt var att jag skulle göra en ny sida men något strulade till ordenligt sa jag uppdaterade u01 sidan samma dag som inlämningen.
+ - jag skapade en json fil med mit cv info, vilket jag sedan använde för att visa den datan i min about sida
+ - jag använde async function för att hämta datan från github api, vilket jag sedan använde ett map array metod för att visa fram i olika kort alla projekt som finns i mitt personliga github konto
+ - använde separata filer för js och css
+
+brister:
+ -  måste inskaffa mer css kunskap
+
 2. Du svarar på dessa frågor (max 800 ord):
 
 Vad kan man utveckla m.h.a av Javascript inom frontend?
-Vad är JSON och hur används det inom frontend?
-Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
 
+Vad är JSON och hur används det inom frontend?
+
+ - JSON är (javascript object notaion), det är en typ av fill som lagrar data i sträng format, vilket man sedan kan använda för att visa den datan i frontend sidan
+
+Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
+ - hypertext rtansfer protocol, vilket man använder för att kunna kommunicera med servrar som innehar sidan man letar efter, vilket man kan få fram genom en request.
 
 ## Kriterier för bedömning
 
