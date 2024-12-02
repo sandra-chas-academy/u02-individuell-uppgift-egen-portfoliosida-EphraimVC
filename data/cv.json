@@ -1,0 +1,52 @@
+{
+"about":[
+    {
+    "text": "Et sint enim ea quis laboris est. Labore officia sit est culpa tempor consequat consequat sint ullamco dolor consequat eu occaecat do. Aliqua occaecat labore ea irure voluptate incididunt nulla enim. Laborum exercitation tempor dolore pariatur tempor enim. Cupidatat veniam do laborum dolore laborum laboris labore excepteur "
+    }
+],
+    "education":[
+        {
+            "course": "Frontend Developer program",
+            "place": "Hyper Island",
+            "location": "Stockholm",
+            "duration": "2 years",
+            "description":"2 years long developer program where i got to work solo and with temas, to learn the basics and intermediate level of frontend development, 6 months of internship and succesfully finnished the course",
+            "period": "2020/08 - 2022-06"
+            },
+            {
+            "course": "Fullstack Javascript Developer program",
+            "place": "Chas Academy",
+            "location": "Stockholm",
+            "duration": "2 years",
+            "description":"2 year long program to become a fullstack javascript developer, where i will learn frontend and backend technologies using javascript",
+            "period": "2024/08 - ongoing"
+            }
+    ],
+    "work":[
+        {
+         "location":"Stockholm",
+         "place": "Freelance",
+         "role": "Frontend developer",
+         "description":"Freelance work were client needed a website for his new company, with the requirments that he coukld update the website with content by him self ",
+         "period": "2023/03 - 2023/04",
+         "duration": "1 month"
+        },
+        {
+         "location":"Stockholm",
+         "place": "Mtr Nordic",
+         "role": "Train Driver",
+         "description":"as a traindriver in stockholm city my main ",
+         "period": "2016/06 - 2023/11",
+         "duration": "7 years"
+        },
+        {
+         "location":"Stockholm",
+         "place": "Matrix",
+         "role": "casheer",
+         "description":"as a traindriver in stockholm city my main ",
+         "period": "2016/06 - 2023/11",
+         "duration": "7 years"
+        }
+    ]
+}
+
