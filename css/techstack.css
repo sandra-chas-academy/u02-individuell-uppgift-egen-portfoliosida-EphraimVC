@@ -1,0 +1,50 @@
+.techstack_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.techstack_titles {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.techstack_heading {
+    margin: 0;
+}
+
+.techstack_icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem 1rem;
+    justify-items: center;
+}
+.tech_icons {
+    width: 5rem;
+}
+
+.tools_icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem 1rem;
+    justify-items: center;
+}
+
+/* -----------------------media queries--------------------- */
+
+@media (min-width: 769px) {
+    .techstack_icons {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: auto auto;
+    }
+
+    .tech_icons {
+        width: 6rem;
+    }
+
+    .tools_icons {
+        grid-template-columns: repeat(autofit, 1fr);
+    }
+}

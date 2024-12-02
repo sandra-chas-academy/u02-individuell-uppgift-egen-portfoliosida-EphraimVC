@@ -1,0 +1,15 @@
+:root {
+}
+
+.contact_container {
+    text-align: center;
+    margin-top: 20rem;
+    font-size: 30px;
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.contact_text1 {
+    color: var(--contact-color);
+}

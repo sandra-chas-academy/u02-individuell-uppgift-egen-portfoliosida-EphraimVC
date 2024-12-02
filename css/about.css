@@ -1,0 +1,81 @@
+.about_container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 70rem;
+    padding-bottom: 50px;
+}
+
+.about_paragraph {
+    font-family: poppins;
+    font-weight: 300;
+}
+/* ---------------------labels--------------------- */
+.workexp_wrapper {
+    margin-top: 20px;
+}
+.work {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-bottom: 2px solid lightgray;
+    .work_titles {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .work_place {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.title2 {
+    background-color: var(--work-span);
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: var(--work-spantext);
+    font-weight: bold;
+    font-size: 10px;
+}
+.work_company,
+.work_country,
+.work_period {
+    color: var(--work-placetext);
+}
+
+.work_company::before {
+    content: "🂠";
+    padding-right: 5px;
+}
+.work_country::before {
+    content: "⚐";
+    padding-right: 5px;
+}
+.work_period::before {
+    content: "⌾";
+    padding-right: 5px;
+}
+/* ------------------------media query--------------------- */
+@media (min-width: 769px) {
+    .work_zone {
+        display: flex;
+        width: 250px;
+    }
+    .work_company {
+        margin-right: 20px;
+    }
+    .title1 {
+        font-weight: 400;
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .about_paragraph {
+        max-width: 45rem;
+    }
+}
