@@ -27,15 +27,6 @@ async function getData() {
     }
 }
 
-
-themeBtn.addEventListener("click",() => { 
-    console.log("togg clicked");
-    toggleStatus = !toggleStatus;
-    toggleModeStatus.src = !toggleStatus ? "./assests/darkMode.svg" : "./assests/lightMode.svg";
-    toggleModeStatus.alt = !toggleStatus ? "dark mode icon" : "light mode icon";
-    })
-
-
 const renderEdu=() => { 
     const eduContainer = document.querySelector(".education_container");    
     let educationHtml = educationData.map(edu =>
