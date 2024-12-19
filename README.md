@@ -46,13 +46,23 @@ brister:
 2. Du svarar på dessa frågor (max 800 ord):
 
 Vad kan man utveckla m.h.a av Javascript inom frontend?
+- Javascript är viktigaste programmeringspråket när det gälleratt bygga dynamiska och interaktiva webbplatser
+- man skappa olika funtkioner och applikationer
+- Formulärvalidering: Kontrollera att användare fyllt i ett formulär korrekt innan det skickas till servern.
+Drag-and-drop-funktioner: Låta användare flytta element
+
 
 Vad är JSON och hur används det inom frontend?
-
  - JSON är (javascript object notaion), det är en typ av fill som lagrar data i sträng format, vilket man sedan kan använda för att visa den datan i frontend sidan
+ - JSON data är representerat i nyckel- värde form men som liknar en objekt i sträng format
+ - inom frontend används JSON.parse för att omvandla data till en objekt eller array oav objekter, och JSON.stringify för att omvandla den ny inskickade datan till sträng format
+
 
 Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
+Som frontendutvecklare arbetar man ofta med att hämta och manipulera data från API:er, hantera användarinteraktioner och optimera prestanda på webben
  - hypertext rtansfer protocol, vilket man använder för att kunna kommunicera med servrar som innehar sidan man letar efter, vilket man kan få fram genom en request.
+ - hantering av respons koder, 200 OK, 404 not found, 500 internal server error
+ - 
 
 ## Kriterier för bedömning
 
@@ -77,7 +87,7 @@ Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt m
 * Återkoppling ges i Canvas
 
 
-länk till netlify: https://u02uppgift.netlify.app
+länk till netlify: https://delightful-lebkuchen-e2ecd3.netlify.app/
 
 
 
